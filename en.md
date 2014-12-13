@@ -2,7 +2,7 @@
 
 Markdown is an **easy-to-read and easy-to-write text format**, enabling **humans and robots to understand the structure** of a document.
 
-The idea is that Markdown-formatted **documents should be publishable in their original form**, without being obfuscated by complex formatting instructions and without specific tools to view them.
+The idea is that text documents should be publishable without being obfuscated by complex formatting instructions and without specific tools to view them.
 
 The following guide will teach you the basics of *Markdown*. The [Markdown Syntax Documentation](http://daringfireball.net/projects/markdown/syntax) covers all features.
 
@@ -51,25 +51,37 @@ Parts may be marked as *emphasied* or **important**.
 
 ## 4. Lists
 
-Let's continue with lists:
+*Unordered* lists can be created by using `-` or `*`:
 
 ```markdown
-- This is an
-- Unordered list
-- Consisting of
-- Bulleted list items
+- go shopping
+- clean the dishes
+- do the laundry
+- repair the bycicle
 
-* Asterisks can also be used
-* To create unordered lists
+* change tires
+* check the motor
+```
 
-1. Numbered lists, easy as one
-2. Two
-3. Three
+*Ordered* lists can be created by using numbers:
 
-1. Nested lists can be created by
-    1. Indenting with four spaces
-    2. Smiling gleefully at your Markdown wisdom
-2. Right on!
+```markdown
+1. do work
+2. have lunch
+3. do work
+4. leave the office
+```
+
+*Nested* lists can be written by **indenting with 4 spaces**. *Ordered* and *unordered* lists can be mixed at any time.
+
+```markdown
+1. go shopping
+    - potatoes
+    - onions
+2. cook a meal
+	1. chop the vegetables
+	2. fry them
+3. enjoy!
 ```
 
 

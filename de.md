@@ -2,7 +2,7 @@
 
 Markdown ist eine **gut les- und schreibbare Auszeichnungsform**, die es ermöglicht, die **Struktur eines Textes für Menschen und Maschinen lesbar** zu machen.
 
-Die Idee ist, Markdown-formatierte **Dokumente in ihrer Ursprungsform veröffentlichen** zu können, ohne dass sie durch komplizierte Formatierungsbefehle unleserlich gemacht werden oder spezielle Werkzeuge zur Ansicht benötigt werden.
+Die Idee ist, Textdokumente veröffentlichen zu können, ohne dass sie durch komplizierte Formatierungsbefehle unleserlich gemacht werden oder spezielle Werkzeuge zur Ansicht benötigt werden.
 
 Diese Übersicht zeigt die grundlegenden Funktionen von *Markdown*. Die [Dokumentation von Markdown (englisch)](http://daringfireball.net/projects/markdown/syntax) deckt alle Funktionen ab.
 
@@ -51,25 +51,37 @@ Teile von Texten können *betont* oder **als wichtig markiert** werden.
 
 ## 4. Aufzählungen
 
-Listen werden wie folgt notiert:
+*Ungeordnete* Listen können mit `-` oder `*` notiert werden:
 
 ```markdown
-- Dies ist eine
-- ungeordnete Liste,
-- bestehend aus
-- mehreren Punkten.
+- Einkaufen gehen
+- Schuhe putzen
+- Wäsche waschen
+- Fahrrad reparieren
 
-* Sternchen können auch benutzt werden,
-* um ungeordnete Listen zu bilden.
+* Reifen wechseln
+* Ölstand checken
+```
 
-1. Geordnete (nummerierte) Listen sind so einfach wie Eins,
-2. Zwei,
-3. Drei.
+*Geordnete* Listen werden mit Zahlen gebildet:
 
-1. Verschachtelte Listen sind auch möglich.
-    1. Rücke einfach mit
-    2. vier Leerzeichen ein.
-2. Weiter geht's!
+```markdown
+1. Arbeiten
+2. Mittagspause
+3. Arbeiten
+4. Feierabend
+```
+
+*Verschachtelte* Listen erhält man durch **Einrücken mit 4 Leerzeichen**. Dabei können nach Belieben *geordnete* und *ungeordnete* Listen gemischt werden.
+
+```
+1. Einkaufen gehen
+    - Kartoffeln
+    - Zwiebeln
+2. Kochen
+	1. Schnippeln
+	2. Braten
+3. Genießen
 ```
 
 
