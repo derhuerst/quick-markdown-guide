@@ -1,6 +1,6 @@
 # Eine Einführung in *Markdown*
 
-Markdown ist eine **gut les- und schreibbare Auszeichnungsform**, die es ermöglicht, die **Struktur eines Textes für Menschen und Maschinen lesbar** zu machen.
+Markdown ist eine **gut les- und schreibbare Auszeichnungsform**, die es ermöglicht, die **Struktur eines Textes für Menschen *und* Maschinen lesbar** zu machen.
 
 Die Idee ist, Textdokumente veröffentlichen zu können, ohne dass sie durch komplizierte Formatierungsbefehle unleserlich gemacht werden oder spezielle Werkzeuge zur Ansicht benötigt werden.
 

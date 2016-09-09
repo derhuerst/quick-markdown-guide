@@ -42,10 +42,10 @@ Here is another paragraph. Thus concludes this English lecture.
 
 ## 3. Emphasis
 
-Parts may be marked as *emphasied* or **important**, like so:
+Parts may be marked as *emphasised* or **important**, like so:
 
 ```markdown
-Parts may be marked as *emphasied* or **important**.
+Parts may be marked as *emphasised* or **important**.
 ```
 
 
