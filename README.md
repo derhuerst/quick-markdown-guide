@@ -1,3 +1,7 @@
+**Deprecated. Checkout [markdownturotial.com](https://github.com/gjtorikian/markdowntutorial.com) instead.**
+
+---
+
 - [A quick guide to *Markdown*](en.md) English
 - [Eine Einführung in *Markdown*](de.md) Deutsch
 
